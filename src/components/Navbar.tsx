@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600 text-white p-4">
+    <header className="bg-gradient-to-r from-red-500 via-yellow-500 to-green-600 text-white p-4">
       <nav className="flex justify-between items-center">
         <Link to="/" className="hover:underline font-bold text-xl">
           It's Just Trousers
@@ -34,34 +34,35 @@ export default function Navbar() {
           <li>
             <Link
               to="/resources"
-              className="block px-4 py-2 hover:underline"
+              className="block px-4 py-2 hover:underline font-bold"
               onClick={() => setIsOpen(false)}
             >
               Resources
             </Link>
           </li>
-          <li>
-            <Link
-              to="/submit"
-              className="block px-4 py-2 hover:underline"
-              onClick={() => setIsOpen(false)}
-            >
-              Submit
-            </Link>
-          </li>
+          
           <li>
             <Link
               to="/liams-story"
-              className="block px-4 py-2 hover:underline"
+              className="block px-4 py-2 hover:underline font-bold"
               onClick={() => setIsOpen(false)}
             >
               Liam's Story
             </Link>
           </li>
           <li>
+            <Link
+              to="/contact"
+              className="block px-4 py-2 hover:underline font-bold"
+              onClick={() => setIsOpen(false)}
+            >
+              Contact
+            </Link>
+          </li>
+          <li>
             <a
               href="https://www.google.com"
-              className="block px-4 py-2 bg-pink-600 hover:bg-red-700 rounded text-center flex items-center justify-center"
+              className="block px-4 py-2 bg-red-600 hover:bg-red-700 rounded text-center flex items-center justify-center font-bold"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
