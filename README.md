@@ -47,3 +47,28 @@ npm install
 
 # run the dev server
 npm run dev
+```
+
+---
+
+## 👩‍💻 Project Structure
+
+```
+src/
+├── components/
+│   └── ResourceCard.tsx           # Reusable card component for displaying resources
+│
+├── pages/
+│   ├── Home.tsx                   # Landing page
+│   ├── Resources.tsx              # Support links and guidance
+│   ├── Submit.tsx                 # (Optional) Submit advice or share stories
+│   └── LiamsStory.tsx             # 🆕 Personal story page about Liam
+│
+├── data/
+│   └── resources.json             # Static list of external resource links
+│
+├── App.tsx                        # Routing and layout with SAFE EXIT
+├── index.css                      # Global styles (Tailwind or custom)
+└── main.tsx                       # App entry point
+```
+
