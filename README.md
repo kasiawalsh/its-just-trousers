@@ -1,6 +1,16 @@
 # 🎒 its-just-trousers
 
-A web app designed to support transgender students facing discrimination, bullying, or lack of support at school. The project was inspired by a real experience — and aims to share helpful links, guidance, and personal stories to support young people navigating difficult environments.
+A web app designed to support transgender students facing discrimination, bullying, or lack of support at school. The project was inspired by a real experience and aims to share helpful links, guidance, and personal stories to support young people navigating difficult environments.
+
+---
+
+## 🎯 Why this app matters
+
+**Filling a gap**: Many transgender young people face bullying, misunderstanding, or isolation at school. This app provides crucial guidance, support, and resources.
+
+**Empowerment**: It helps students feel less alone and more equipped to handle challenges.
+
+**Advocacy**: Promotes awareness and empathy.
 
 ---
 
