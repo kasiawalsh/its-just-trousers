@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
-        <header className="bg-blue-600 text-white p-4">
+        <header className="bg-teal-400 text-white p-4">
           <Navbar />
         </header>
         <main className="flex-grow p-4">

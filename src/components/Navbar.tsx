@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-blue-600 text-white p-4">
+    <header className="bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600 text-white p-4">
       <nav className="flex justify-between items-center">
         <Link to="/" className="hover:underline font-bold text-xl">
           It's Just Trousers
@@ -61,7 +61,7 @@ export default function Navbar() {
           <li>
             <a
               href="https://www.google.com"
-              className="block px-4 py-2 bg-red-600 hover:bg-red-700 rounded text-center flex items-center justify-center"
+              className="block px-4 py-2 bg-pink-600 hover:bg-red-700 rounded text-center flex items-center justify-center"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
