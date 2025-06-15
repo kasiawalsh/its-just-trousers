@@ -16,12 +16,28 @@ const Resources = () => {
       </div>
       <div className="bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
         <p className="font-sans text-lg text-gray-700 text-center">
-          
-         
-          popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
+          Speak to school about uniform 
+          GP 
+          CAHMS 
+          caouncl safegiarding 
+          Mash 
+          ask for social worker
+          LADO 
+          Ofstead
+          Formal complaint
+          Gendered Intelligence
+          Trans actual UK
+          Equality advisory resource center
+          EASS
+          Young Minds
+          Mermaids 
+          Stonewall 
+          Just like us 
+          Galop
+          The Proud Trust 
+          MP 
+          link to video 
+
         </p>
       </div>
     </div>

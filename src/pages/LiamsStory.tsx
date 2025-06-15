@@ -15,14 +15,16 @@ const LiamsStory = () => {
       </div>
     <div className="bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
       <div className="font-sans text-lg text-gray-700 text-left">
-        <p>Liam is a 13-year-old transgender boy who bravely came out
-        and began living as himself at school. <span className="font-edusa font-bold">He just wanted to wear trousers as part of his school uniform.</span></p>
-         <p className="pt-2">Despite his strength and clarity
+        <p className="font-edusa font-bold">It started with a request made over a year ago to wear trousers as part his school uniform.</p>
+        <p className="pt-2">Liam is a 13-year-old transgender boy who bravely came out
+        and began living as himself at school. Despite his strength and clarity
         about his identity, the response he received from his school was far
-        from supportive. Despite formal complaints, meetings with
+        from supportive.</p>
+        <p className="pt-2">A coucellor provided by the school asked Liam "Do you blame IVF for who you are right now?", and said to him "You still look like a girl."</p>
+        <p className="pt-2">Despite formal complaints, meetings with
         senior leadership, and the involvement of a social worker, the school
         continued to deny his identity. The school
-        refused to make reasonable adjustments, disregarded safeguarding
+        is refusing to make reasonable adjustments, disregarded safeguarding
         concerns, and failed to uphold its duties under the Equality Act 2010.</p>
         <p className="pt-2">When Liam wore trousers in line with his gender
         identity, he was sent home and told to return in a skirt.
@@ -32,11 +34,11 @@ const LiamsStory = () => {
         <p className="pt-2">Supported by professionals, Liam has made the painful decision not to
         return to school while being forced to wear clothing that invalidates
         who he is.  </p>
-        <p className="pt-2 font-edusa font-bold">Liam's story is not just about trousers. It's about dignity,
+        <p className="pt-4 font-edusa font-bold">Liam's story is not just about trousers. It's about dignity,
         safety, and the right of every young person to be respected. No child
         should be punished for being themselves.</p>
   
-        <p className="pt-2"><span className="font-edusa font-bold text-green-600">"I just want to go to school
+        <p className="pt-4 max-w-sm text-center mx-auto"><span className="font-edusa font-bold text-green-600">"I just want to go to school
         and be seen as who I really am."</span></p>
       </div>
     </div>

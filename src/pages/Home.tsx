@@ -23,11 +23,12 @@ const Home = () => {
       </div>
 
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
-        <p className="font-sans text-lg text-gray-700 text-center">
-          Liam's aim it to share his story, spread awareness, and providde
+        <div className="font-sans text-lg text-gray-700 text-center">
+          <p>Liam's aim it to share his story, spread awareness, and provide
           helpful links to transgender and LGBTQ+ students facing bullying,
-          discrimination, or a lack of support in school.
-        </p>
+          discrimination, or a lack of support in school.</p>
+          <p className="pt-2">He is also seeking anyone able to represent his case or provide free legal advice. </p>
+        </div>
       </div>
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
         <div className="pl-10">
