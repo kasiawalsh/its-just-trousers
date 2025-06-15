@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        edusa: ['"Edu SA Hand"', 'cursive'],
+        sans: ['"Open Sans"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
