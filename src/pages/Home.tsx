@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Layout from "../components/Layout"; // Import the Layout component
 import schoolImage from "../assets/yellow-school-building.png";
 
 const Home = () => {
@@ -12,7 +11,7 @@ const Home = () => {
       </div>
 
       <div className="flex flex-row items-center justify-around bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300 gap-2">
-        <p className="text-gray-700">
+        <p className="text-justify text-gray-700">
           Welcome to Liam's story — the journey of a brave 13-year-old
           transgender boy who simply wants to be treated with dignity and
           respect. But when Liam asked to wear trousers instead of the
@@ -57,7 +56,7 @@ const Home = () => {
           <p className="font-edusa font-bold text-gray-700 text-left">
             Is it really just about trousers?
           </p>
-          <p className="text-gray-700 text-left max-w-xl mt-4">
+          <p className="text-gray-700 text-justify max-w-xl mt-4">
             Liam's request to wear trousers was first made over a year ago.
             Despite countless meetings and even a formal complaint, the school
             has continued to deny his request. What began as a simple issue of

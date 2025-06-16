@@ -16,7 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
         backgroundImage: `url(${bgImage})`,
       }}
     >
-      <header className="bg-green-300 text-white p-4">
+      <header className="sticky top-0 bg-green-300 text-white p-4">
         <Navbar />
       </header>
 
