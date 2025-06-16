@@ -28,7 +28,10 @@ function App() {
         </main>
         <footer className="bg-gray-100 text-center p-4 text-sm text-gray-500">
           © {new Date().getFullYear()} its-just-trousers | Icons and images by Freepik
-
+          <div>
+      <a href='http://www.freevisitorcounters.com'>www.Freevisitorcounters.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d1e7350a78df1f691cf74553b8df2167d6625bd0'></script>
+      <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1352172/t/3"></script>
+      </div>
 
         </footer>
       </div>

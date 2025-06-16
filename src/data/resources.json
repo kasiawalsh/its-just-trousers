@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Speak to the School",
+    "description": "Have a conversation with the school to express concerns about uniform policies and support for transgender students."
+  },
+  {
+    "title": "Speak to your GP",
+    "description": "Your family doctor can provide referrals and medical support for gender-affirming care."
+    
+  },
+  {
+    "title": "Consider making a Formal Complaint",
+    "description": "Use the school's formal complaints procedure to raise issues officially."
+    
+  },
+  {
+    "title": "Consider contacting CAMHS",
+    "description": "NHS service supporting children with emotional and mental health difficulties.",
+    "link": "https://www.nhs.uk/services/mental-health-services/child-and-adolescent-mental-health-services-camhs"
+  },
+  {
+    "title": "Contact your Local Council Safeguarding Team",
+    "description": "Contact your local council's safeguarding team if a child is at risk or not being supported appropriately."
+    
+  },
+  {
+    "title": "MASH (Multi-Agency Safeguarding Hub)",
+    "description": "Coordinates responses from social care, education, and police when a child is at risk.",
+    "link": "#"
+  },
+  {
+    "title": "Ask for a Social Worker",
+    "description": "Request a social worker to assess the situation if a child's rights or wellbeing are being compromised.",
+    "link": "#"
+  },
+  {
+    "title": "LADO (Local Authority Designated Officer)",
+    "description": "Handles concerns about adults working with children, especially in schools or institutions.",
+    "link": "#"
+  },
+  {
+    "title": "Ofsted",
+    "description": "File a complaint about school practices that violate safeguarding or equality obligations.",
+    "link": "https://www.gov.uk/government/organisations/ofsted"
+  },
+ 
+  {
+    "title": "Gendered Intelligence",
+    "description": "Supports young trans people through youth groups, resources, and educational outreach.",
+    "link": "https://genderedintelligence.co.uk"
+  },
+  {
+    "title": "TransActual UK",
+    "description": "Run by and for trans people, advocating for rights, healthcare access, and legal protection.",
+    "link": "https://transactual.org.uk"
+  },
+  {
+    "title": "Equality Advisory and Support Service (EASS)",
+    "description": "Provides advice on discrimination and human rights issues.",
+    "link": "https://www.equalityadvisoryservice.com"
+  },
+  {
+    "title": "YoungMinds",
+    "description": "Mental health support and resources for young people and families.",
+    "link": "https://www.youngminds.org.uk"
+  },
+  {
+    "title": "Mermaids",
+    "description": "Supports transgender, nonbinary, and gender-diverse young people and their families.",
+    "link": "https://mermaidsuk.org.uk"
+  },
+  {
+    "title": "Stonewall",
+    "description": "Advocates for LGBTQ+ equality in schools, workplaces, and communities.",
+    "link": "https://stonewall.org.uk"
+  },
+  {
+    "title": "Just Like Us",
+    "description": "Empowers LGBTQ+ young people through school-based inclusion and ambassador programmes.",
+    "link": "https://www.justlikeus.org"
+  },
+  {
+    "title": "Galop",
+    "description": "Support and advocacy for LGBTQ+ people facing abuse, hate crime, or discrimination.",
+    "link": "https://galop.org.uk"
+  },
+  {
+    "title": "The Proud Trust",
+    "description": "Youth work and resources for LGBTQ+ young people and educators.",
+    "link": "https://www.theproudtrust.org"
+  },
+  {
+    "title": "Contact Your MP",
+    "description": "Raise the issue with your local Member of Parliament for support or advocacy.",
+    "link": "https://www.parliament.uk/mps-lords-and-offices/mps"
+  }
+]

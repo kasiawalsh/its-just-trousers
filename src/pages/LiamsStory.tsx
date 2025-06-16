@@ -16,10 +16,10 @@ const LiamsStory = () => {
       </div>
     <div className="bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
       <div className="font-sans text-lg text-gray-700 text-left">
-        <p className="font-edusa font-bold">It started with a request made over a year ago to wear trousers as part his school uniform.</p>
+        <p className="font-edusa font-bold">It started with a request made over a year ago to wear trousers as part school uniform.</p>
         <p className="pt-2">Liam is a 13-year-old transgender boy who bravely came out
         and began living as himself at school. Despite his strength and clarity
-        about his identity, the response he received from his school was far
+        about his identity, and the backing of medical professionals, the response he received from his school was far
         from supportive.</p>
         <p className="pt-2">A coucellor provided by the school asked Liam "Do you blame IVF for who you are right now?", and said to him "You still look like a girl."</p>
         <p className="pt-2">Despite formal complaints, meetings with
@@ -28,7 +28,7 @@ const LiamsStory = () => {
         is refusing to make reasonable adjustments, disregarded safeguarding
         concerns, and failed to uphold its duties under the Equality Act 2010.</p>
         <p className="pt-2">When Liam wore trousers in line with his gender
-        identity, he was sent home and told to return in a skirt.
+        identity, he was not allowed in the classroom, was sent home and told to return in a skirt.
         Liam's emotional well-being suffered deeply. He began experiencing
         anxiety, distress, and sleep difficulties, and his GP confirmed the
         impact on his mental health. </p>
@@ -42,11 +42,11 @@ const LiamsStory = () => {
       </div>
     </div>
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-4 border-red-400">
-      <p className="text-center">
+      <p className="font-edusa font-bold text-lg text-center">
     If you can support Liam or want to get in touch, please{" "}
     <Link
       to="/contact"
-      className="text-green-600 font-bold hover:underline"
+      className="text-orange-600 font-bold hover:underline"
     >
       contact us
     </Link>.
