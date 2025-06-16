@@ -7,8 +7,8 @@ type ResourceCardProps = {
 const ResourceCard: React.FC<ResourceCardProps> = ({ title, description, link }) => {
   return (
     <div className="flex flex-col items-center justify-center bg-white p-4 rounded-lg shadow-md min-w-[350px] max-w-xl w-full border-2 border-gray-300">
-      <h3 className="text-xl font-bold text-center">{title}</h3>
-      <p className="text-gray-700 pt-1">{description}</p>
+      <h3 className="font-ans font-bold text-xl text-center">{title}</h3>
+      <p className="text-gray-700 pt-1 text-left">{description}</p>
       {link ? (
         <a
           href={link}

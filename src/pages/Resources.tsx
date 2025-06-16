@@ -1,11 +1,9 @@
-import lineImage from '../assets/line.png';
 import ResourceCard from "../components/ResourceCard";
 import resources from "../data/resources.json";
 
 const Resources = () => {
   return (
     <div className="flex flex-col items-center gap-4 px-4">
-      <img src={lineImage} alt="Line Image" className="w-[400px]"></img>
       <h1 className="text-4xl font-edusa font-bold text-center mb-8">Support Resources</h1>
       <div className="grid gap-6 md:grid-cols-2">
         {resources.map((res, index) => (

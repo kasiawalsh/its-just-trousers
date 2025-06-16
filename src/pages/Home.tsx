@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import lineImage from "../assets/line.png";
+import Layout from "../components/Layout"; // Import the Layout component
 import schoolImage from "../assets/yellow-school-building.png";
 
 const Home = () => {
   return (
     <div className="flex flex-col items-center gap-4 px-4">
-      <img src={lineImage} alt="Line Image" className="w-[400px]"></img>
       <div className="flex flex-row items-center justify-around bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300 gap-4">
         <h1 className="text-4xl font-bold text-center font-edusa">
           It's Just Trousers
@@ -14,14 +13,18 @@ const Home = () => {
 
       <div className="flex flex-row items-center justify-around bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300 gap-2">
         <p className="text-gray-700">
-          Behind a school uniform policy is a real person - a brave 13-year-old
-          transgender boy Liam who just wants to be treated with respect.
+          Welcome to Liam's story — the journey of a brave 13-year-old
+          transgender boy who simply wants to be treated with dignity and
+          respect. But when Liam asked to wear trousers instead of the
+          school-mandated skirt, his request was denied even after providing
+          professional medical advice requested by the school. Behind the school
+          uniform policy lies a real person, not just a rule.
         </p>
         <img
           src={schoolImage}
-          alt="It's Just Trousers Logo"
+          alt="School Building"
           className="w-16 h-16 ml-2 sm:ml-4"
-        ></img>
+        />
       </div>
 
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
@@ -48,22 +51,23 @@ const Home = () => {
           </ul>
         </div>
       </div>
+
       <div className="flex flex-row items-center justify-around bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
-        <div className="">
+        <div>
           <p className="font-edusa font-bold text-gray-700 text-left">
             Is it really just about trousers?
           </p>
           <p className="text-gray-700 text-left max-w-xl mt-4">
-            When Liam asked to wear trousers instead of the school-mandated
-            skirt, his request was denied even after providing medical advice
-            requested by the school. What began as a uniform issue turned into
-            something deeper - a struggle to be seen, heard, and respected for
-            who he is.
+            Liam's request to wear trousers was first made over a year ago.
+            Despite countless meetings and even a formal complaint, the school
+            has continued to deny his request. What began as a simple issue of
+            uniform has become a much deeper struggle for recognition, dignity,
+            and respect.
           </p>
           <p className="text-center pt-4">
             <Link
               to="/liams-story"
-              className="hover:underline text-3xl text-green-700 font-edusa font-bold"
+              className="hover:underline text-3xl text-orange-600 font-edusa font-bold"
             >
               Read Liam's story so far →
             </Link>
