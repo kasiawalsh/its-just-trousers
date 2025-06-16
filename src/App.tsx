@@ -13,9 +13,6 @@ function App() {
         className="min-h-screen flex flex-col bg-fixed bg-center bg-cover bg-no-repeat bg-gray-100"
         style={{
           backgroundImage: `url(${bgImage})`,
-          // backgroundSize: "cover",
-          // backgroundRepeat: "no-repeat",
-          // backgroundPosition: "center",
         }}
       >
         <header className="bg-green-300 text-white p-4">

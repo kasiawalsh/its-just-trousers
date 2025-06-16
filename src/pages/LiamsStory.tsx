@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import lineImage from "../assets/line.png";
 
 const LiamsStory = () => {
@@ -9,7 +10,7 @@ const LiamsStory = () => {
           className="w-[400px]"
         ></img>
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
-        <h1 className="text-4xl font-bold text-center font-edusa">
+        <h1 className="text-3xl font-bold text-center font-edusa ">
           Liam's Story So Far
         </h1>
       </div>
@@ -31,9 +32,7 @@ const LiamsStory = () => {
         Liam's emotional well-being suffered deeply. He began experiencing
         anxiety, distress, and sleep difficulties, and his GP confirmed the
         impact on his mental health. </p>
-        <p className="pt-2">Supported by professionals, Liam has made the painful decision not to
-        return to school while being forced to wear clothing that invalidates
-        who he is.  </p>
+      
         <p className="pt-4 font-edusa font-bold">Liam's story is not just about trousers. It's about dignity,
         safety, and the right of every young person to be respected. No child
         should be punished for being themselves.</p>
@@ -42,7 +41,19 @@ const LiamsStory = () => {
         and be seen as who I really am."</span></p>
       </div>
     </div>
+      <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-4 border-red-400">
+      <p className="text-center">
+    If you can support Liam or want to get in touch, please{" "}
+    <Link
+      to="/contact"
+      className="text-green-600 font-bold hover:underline"
+    >
+      contact us
+    </Link>.
+  </p>
+      </div>
     </div>
+
   );
 };
 export default LiamsStory;
