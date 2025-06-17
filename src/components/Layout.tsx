@@ -11,8 +11,8 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div
-      className="min-h-screen flex flex-col bg-fixed bg-center bg-cover bg-no-repeat bg-gray-100"
-      style={{
+    className="min-h-screen flex flex-col bg-scroll sm:bg-fixed bg-center bg-cover bg-no-repeat bg-gray-100"
+    style={{
         backgroundImage: `url(${bgImage})`,
       }}
     >
