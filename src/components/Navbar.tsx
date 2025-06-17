@@ -7,7 +7,10 @@ export default function Navbar() {
   return (
     <header className="text-black p-4 font-edusa relative">
       <nav className="flex justify-between items-center">
-        <Link to="/" className="hover:underline font-bold text-xl">
+        <Link
+          to="/"
+          className="hover:underline font-bold text-xl whitespace-nowrap pr-4"
+        >
           It's Just Trousers
         </Link>
 
@@ -18,7 +21,7 @@ export default function Navbar() {
           aria-label="Toggle menu"
         >
           {/* Hamburger icon */}
-          <div className="space-y-1">
+          <div className="space-y-1" aria-hidden="true">
             <span className="block w-6 h-0.5 bg-black"></span>
             <span className="block w-6 h-0.5 bg-black"></span>
             <span className="block w-6 h-0.5 bg-black"></span>
@@ -26,26 +29,29 @@ export default function Navbar() {
         </button>
 
         {/* Desktop menu - visible on sm and up */}
-        <ul className="hidden sm:flex gap-8 font-bold">
-          <li>
-            <Link to="/resources" className="hover:underline">
+        <ul className="hidden sm:flex gap-2 sm:gap-4 md:gap-10 font-bold">
+                      <li>
+            <Link to="/resources" className="hover:underline whitespace-nowrap">
               Resources
             </Link>
           </li>
           <li>
-            <Link to="/liams-story" className="hover:underline">
+            <Link
+              to="/liams-story"
+              className="hover:underline whitespace-nowrap"
+            >
               Liam's Story
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:underline">
+            <Link to="/contact" className="hover:underline whitespace-nowrap">
               Contact
             </Link>
           </li>
           <li>
             <a
               href="https://www.google.com"
-              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"
+              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded whitespace-nowrap"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -107,7 +113,7 @@ export default function Navbar() {
           <li>
             <a
               href="https://www.google.com"
-              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded text-center block"
+              className="bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded text-center block min-w-[160px] whitespace-nowrap text-sm font-bold"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}

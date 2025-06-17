@@ -16,10 +16,9 @@ const Layout = ({ children }: LayoutProps) => {
         backgroundImage: `url(${bgImage})`,
       }}
     >
-      <header className="sticky top-0 bg-green-300 text-white p-4">
+      <header className="sticky top-0 bg-green-300 text-white p-4 z-50 shadow-md">
         <Navbar />
       </header>
-
       {/* Line Image Across All Pages */}
       <div className="flex justify-center py-2 mt-4">
         <img
@@ -34,7 +33,6 @@ const Layout = ({ children }: LayoutProps) => {
       <footer className="bg-gray-100 text-center p-4 text-sm text-gray-500">
         © {new Date().getFullYear()} its-just-trousers | Icons and images by
         Freepik
-        <div></div>
       </footer>
     </div>
   );

@@ -11,50 +11,61 @@ const LiamsStory = () => {
       <div className="bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
         <div className="font-sans text-lg text-gray-700 text-left">
           <p className="pt-2">
-            It all started with a request made over a year ago to wear trousers
-            as part school uniform. Liam bravely came out and began living as
-            himself at school. Despite his strength and clarity about his
-            identity, and the backing of medical professionals, the response he
-            received from his school was far from supportive.
+            It began with a simple request over a year ago: to wear trousers as
+            part of the school uniform. For Liam, this wasn’t just about
+            clothing, it was about being seen for who he truly is. With
+            incredible courage, he came out and began living openly as himself
+            at school.
           </p>
           <p className="pt-2">
-            Despite formal complaints, meetings with senior leadership, and the
-            involvement of a social worker, the school is continuing to deny his
-            identity. The school is refusing to make reasonable adjustments,
-            disregarded safeguarding concerns, and failed to uphold its duties
-            under the Equality Act 2010.
+            Despite his strength, the support of medical professionals, and
+            backing from social care, Liam was met not with understanding, but
+            rejection. The school failed to support him, denying his identity
+            and refusing to make even the most basic accommodations under the
+            Equality Act 2010 — a clear failure of their safeguarding
+            responsibilities.
           </p>
           <p className="pt-2">
-            A coucellor provided by the school asked Liam "Do you blame IVF for
-            who you are right now?", and said to him "You still look like a
-            girl."
+            Formal complaints were made. Meetings with senior leadership were
+            held. Still, the school continued to dismiss Liam's needs.
           </p>
           <p className="pt-2">
-            When Liam wore trousers in alignment with his gender identity, he
-            was barred from the classroom, sent home, and told to return wearing
-            a skirt. This rejection took a serious toll on his emotional
-            well-being. The lack of acceptance from his school, a place that
-            should nurture and support young people, deeply affected him. Liam
-            began experiencing anxiety, distress, and sleep difficulties, and
-            his GP later confirmed the significant impact on his mental health.
+            One school-provided counsellor even asked, "Do you blame IVF for who
+            you are right now?" and told him, "You still look like a girl."
+            These are not the words of care, they are deeply harmful.
+          </p>
+          <p className="pt-2">
+            When Liam wore trousers in line with his gender identity, he was
+            excluded from the classroom, sent home, and told to return wearing a
+            skirt. Would this happen to an adult? Denying him access to
+            education unless he conformed to a gender identity that is not his
+            own is not only cruel, it's discriminatory.
           </p>
 
-          <p className="pt-4 font-edusa font-bold">
-            Liam's story is not just about trousers. It's about dignity, safety,
-            and the right of every young person to be respected. No child should
-            be punished for being themselves.
+          <p className="pt-2">
+            This rejection has taken a significant toll on Liam's emotional
+            well-being. School should be a place of safety, belonging, and
+            growth, not exclusion.
+          </p>
+          <p className="pt-2">
+            Liam's story is about far more than trousers. It's about dignity,
+            identity, and the basic right of every young person to be respected
+            for who they are.
           </p>
 
-          <p className="pt-4 max-w-sm text-center mx-auto">
+          <p className="pt-4">
             <span className="font-edusa font-bold text-green-600">
               "I just want to go to school and be seen as who I really am."
             </span>
+          </p>
+          <p className="pt-2">
+            No child should be punished for being themselves.
           </p>
         </div>
       </div>
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-4 border-red-400">
         <p className="font-edusa text-3xl font-medium text-center">
-          If you can support Liam or want to get in touch, please{" "}
+          If you can help Liam fight this injutice, please{" "}
           <Link
             to="/contact"
             className="text-orange-600 text-3xl font-bold hover:underline"
