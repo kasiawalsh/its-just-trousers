@@ -1,6 +1,9 @@
 [build]
-  publish = "dist" # Specify the directory to deploy
-  command = "npm run build" # Specify the build command
+  command = "npm run build"
+  publish = "dist"
+  node_version = "18"
 
-[build.environment]
-  NODE_VERSION = "18" # Specify the Node.js version compatible with your project
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
