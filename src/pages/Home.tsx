@@ -29,7 +29,7 @@ const Home = () => {
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
         <div className="font-sans text-gray-700 text-left">
           <p className="font-edusa font-bold pb-4">
-            Liam's gaol is to:
+            Liam's goal is to:
           </p>
           <ul className="list-disc list-inside text-left space-y-2">
             <li>
