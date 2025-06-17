@@ -6,7 +6,7 @@ const Contact = () => {
           You can contact Liam's family directly by sending an email to:
         </p>
         <a
-          href="mailto:kasia_walsh@yahoo.co.uk?subject=I can offer help&body=Hello, I would like to..."
+          href="mailto:itsjusttrousers@gmail.com?subject=I can offer help&body=Hello, I would like to..."
           className="text-green-600 font-semibold underline hover:text-green-800"
         >
           itsjusttrousers@gmail.com
