@@ -6,11 +6,14 @@ const Contact = () => {
           You can contact Liam's family directly by sending an email to:
         </p>
         <a
-          href="mailto:kasia_walsh@yahoo.co.uk"
+          href="mailto:kasia_walsh@yahoo.co.uk?subject=I can offer help&body=Hello, I would like to..."
           className="text-green-600 font-semibold underline hover:text-green-800"
         >
           itsjusttrousers@gmail.com
         </a>
+        <p className="text-gray-500 mt-4">
+          If the email link doesn't work, please copy and paste the email address into your email client.
+        </p>
       </div>
     );
   };

@@ -29,22 +29,19 @@ const Home = () => {
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
         <div className="font-sans text-gray-700 text-left">
           <p className="font-edusa font-bold pb-4">
-            Liam is taking a stand to:
+            Liam's gaol is to:
           </p>
           <ul className="list-disc list-inside text-left space-y-2">
             <li>
-              Share his story as a transgender student navigating school life
-            </li>
-            <li>
-              Raise awareness about gender expression and school uniform
+              <span className="font-edusa font-bold">Share his story and raise awareness</span> about gender expression and school uniform
               policies
             </li>
             <li>
-              Provide helpful resources for transgender and LGBTQ+ students
+            <span className="font-edusa font-bold">Provide helpful resources</span> for transgender and LGBTQ+ students
               facing bullying, discrimination, or lack of support
             </li>
             <li>
-              Find legal support or representation to help challenge his
+              <span className="font-edusa font-bold">Find legal support or representation</span> to help challenge his
               school's decision to deny his request for trousers
             </li>
           </ul>
