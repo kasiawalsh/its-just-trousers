@@ -19,9 +19,9 @@ const LiamsStory = () => {
           </p>
           <p className="pt-2">
             Despite his strength, the support of medical professionals, and
-            backing from social care, Liam was met not with understanding, but
+            backing from social care, at school, Liam was met not with understanding, but
             rejection. The school failed to support him, denying his identity
-            and refusing to make even the most basic accommodations under the
+            and refusing to make basic uniform adjustments under the
             Equality Act 2010 — a clear failure of their safeguarding
             responsibilities.
           </p>
