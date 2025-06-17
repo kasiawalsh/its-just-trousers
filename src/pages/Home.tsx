@@ -19,11 +19,11 @@ const Home = () => {
           professional medical advice requested by the school. Behind the school
           uniform policy lies a real person, not just a rule.
         </p>
-        <img
+        {/* <img
           src={schoolImage}
           alt="School Building"
           className="w-16 h-16 ml-2 sm:ml-4"
-        />
+        /> */}
       </div>
 
       <div className="flex flex-row items-center justify-center bg-white p-6 rounded-lg shadow-md max-w-xl w-full border-2 border-gray-300">
